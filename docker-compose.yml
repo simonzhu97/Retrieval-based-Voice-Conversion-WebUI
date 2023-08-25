@@ -1,6 +1,7 @@
 version: "3.8"
 services:
   rvc:
+    platform: linux/amd64
     build:
       context: .
       dockerfile: Dockerfile
